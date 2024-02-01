@@ -81,13 +81,13 @@ console.log(`average    : ${randomArray.reduce((a,b) => a+b, 0) / randomArray.le
 console.log(`max        : ${Math.max(...randomArray)}`);
 console.log(`min        : ${Math.min(...randomArray)}\n\n`);
 
-console.log("----------- Custom Function event index array ------------");
+console.log("----------- Custom Function even index array ------------");
 console.log(`sum        : ${sum(evenIndexArray)}`);
 console.log(`average    : ${average(evenIndexArray)}`);
 console.log(`max        : ${max(evenIndexArray)}`);
 console.log(`min        : ${min(evenIndexArray)}`);
 
-console.log("----------- Internal Function event index array ------------");
+console.log("----------- Internal Function even index array ------------");
 console.log(`sum        : ${evenIndexArray.reduce((a,b) => a+b, 0)}`);
 console.log(`average    : ${evenIndexArray.reduce((a,b) => a+b, 0) / evenIndexArray.length}`);
 console.log(`max        : ${Math.max(...evenIndexArray)}`);
